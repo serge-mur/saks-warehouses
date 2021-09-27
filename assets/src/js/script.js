@@ -19,7 +19,7 @@ $(document).ready(function() {
             data: $form.serialize()
         }).done(function(data) {
             Swal.fire({
-                title: 'Ваша заявка отправлена',
+                title: 'Ваша заявка отправлена. Мы с вами свяжемся',
                 timer: 5000
             });
             // console.log(data);
